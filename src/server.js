@@ -1,7 +1,7 @@
 // app.js
 
 const express = require('express');
-const pool = require('./db/connection.js'); // Import the PostgreSQL connection pool
+const pool = require('../db/connection.js'); // Import the PostgreSQL connection pool
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
